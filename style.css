@@ -1,0 +1,46 @@
+.container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.drag-items {
+     border: 1px solid #ccc;
+     padding: 10px;
+}
+
+.item {
+     background-color: rgb(69, 162, 72);
+     margin-bottom: 5px;
+     padding: 8px;
+     border-radius: 5px;
+     border: none;
+     cursor: move;
+     width: fit-content;
+     color: white;
+     font-size: large;
+}
+
+.drop-container {
+     border: 1px solid #ccc;
+     padding: 10px;
+     min-height: 200px;
+     flex-grow: 1;
+}
+
+.drop-message {
+     text-align: center;
+     font-weight: bold;
+     color: #999;
+}
+
+.reset {
+     border: 1px solid black;
+     border-radius: 6px;
+     margin-top: 10px;
+     background-color: black;
+     height: 2rem;
+     width: 75px;
+     font-size: large;
+     color: white;
+     cursor: pointer;
+}
